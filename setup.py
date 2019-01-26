@@ -8,6 +8,9 @@ setup(
     author='Matthew Scholefield',
     author_email='matthew331199@gmail.com',
     license='MIT',
+    install_requires=[
+        'requests'
+    ],
     py_modules=[
         'glokov'
     ],
