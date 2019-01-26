@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='glokov',
-    version='0.1.0',
+    version='0.1.1',
     description='A text generation library',
     url='http://github.com/MatthewScholefield/glokov',
     author='Matthew Scholefield',
