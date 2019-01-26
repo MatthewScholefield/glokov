@@ -60,7 +60,3 @@ def main():
             print(' '.join(traverse_chain(chain, args.first_word)))
     except KeyError:
         print('The provided first word is not in the dataset:', args.first_word)
-
-
-if __name__ == '__main__':
-    main()
