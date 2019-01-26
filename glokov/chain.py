@@ -1,10 +1,9 @@
-#!/usr/bin/env python3
 import random
 import re
 from argparse import ArgumentParser
 
 
-def random_sample(options: dict) -> str:
+def random_sample(options):
     items = list(options.items())
     total = sum(i[1] for i in items)
     choice = random.random() * total
